@@ -16,7 +16,7 @@ Ampli=12;
 nSamples = length(timeVec);
 
 % Generate the signal call signal model
-sigVec = sineGaussian(Ampli,timeVec,b,f0,f1);  
+sigVec = AM_FMsinusoid(Ampli,timeVec,b,f0,f1);  
 
 %Plot the signal 
 figure;
